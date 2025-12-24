@@ -1,0 +1,59 @@
+{
+  "aloe_vera": {
+    "name_en": "Aloe Vera",
+    "name_hi": "एलोवेरा (घृतकुमारी)",
+    "name_mr": "कोरफड (घृतकुमारी)",
+    "uses_en": ["Skin healing", "Anti-inflammatory", "Digestive aid"],
+    "uses_hi": ["त्वचा उपचार", "सूजनरोधी", "पाचन में सहायक"],
+    "uses_mr": ["त्वचा उपचार", "दाह कमी करणारे", "पचनास मदत"],
+    "remedy_en": "Apply fresh gel on burns and wounds. Drink small amounts of diluted juice daily.",
+    "remedy_hi": "जलन या घाव पर ताज़ा जेल लगाएँ। रोज़ थोड़ी मात्रा में पतला किया हुआ रस पिएँ।",
+    "remedy_mr": "जळालेल्या भागावर किंवा जखमेवर ताजा जेल लावा. दररोज थोड्या प्रमाणात पातळ केलेला रस प्या.",
+    "precautions_en": "Avoid high oral doses, especially in pregnancy.",
+    "precautions_hi": "गर्भावस्था में अधिक मात्रा में सेवन से बचें।",
+    "precautions_mr": "गर्भावस्थेत जास्त प्रमाणात सेवन टाळा."
+  },
+  "ashwagandha": {
+    "name_en": "Ashwagandha",
+    "name_hi": "अश्वगंधा",
+    "name_mr": "अश्वगंधा",
+    "uses_en": ["Stress relief", "Energy booster", "Sleep aid"],
+    "uses_hi": ["तनाव में राहत", "ऊर्जा में वृद्धि", "नींद में सहायता"],
+    "uses_mr": ["तणाव कमी", "ऊर्जा वाढवणे", "झोप सुधारण्यासाठी"],
+    "remedy_en": "Take 1 teaspoon powder with warm milk at night.",
+    "remedy_hi": "रात में सोने से पहले 1 चम्मच चूर्ण गुनगुने दूध के साथ लें।",
+    "remedy_mr": "रात्री झोपण्यापूर्वी १ चमचा चूर्ण कोमट दुधासोबत घ्या.",
+    "precautions_en": "Start with small doses; consult a physician if you have chronic disease.",
+    "precautions_hi": "कम मात्रा से शुरू करें; दीर्घकालिक रोग होने पर चिकित्सक से परामर्श लें।",
+    "precautions_mr": "थोड्या प्रमाणात सुरू करा; दीर्घकालीन आजार असल्यास वैद्यकीय सल्ला घ्या."
+  },
+  "neem": {
+    "name_en": "Neem (Azadirachta indica)",
+    "name_hi": "नीम (अज़ादिराच्टा इंडिका)",
+    "name_mr": "कडुलिंब (नीम)",
+    "uses_en": ["Antibacterial", "Skin disorders", "Blood purification"],
+    "uses_hi": ["रोगाणुनाशक", "त्वचा रोग", "रक्त शुद्धि"],
+    "uses_mr": ["जंतुनाशक", "त्वचाविकार", "रक्तशुद्धी"],
+    "remedy_en": "Apply neem leaf paste on skin infections. Boil leaves for internal purification.",
+    "remedy_hi": "त्वचा के संक्रमण पर नीम की पत्तियों का लेप लगाएँ। आंतरिक शुद्धि के लिए पत्तियाँ उबालकर काढ़ा पिएँ।",
+    "remedy_mr": "त्वचेच्या संसर्गावर नीमाच्या पानांचा लेप लावा. आंतरिक शुद्धीसाठी पानांचा काढा करून प्या.",
+    "precautions_en": "Avoid during pregnancy.",
+    "precautions_hi": "गर्भावस्था में उपयोग से बचें।",
+    "precautions_mr": "गर्भावस्थेत वापर टाळा."
+  },
+  "tulsi": {
+    "name_en": "Tulsi (Ocimum sanctum)",
+    "name_hi": "तुलसी (ओसीमम सैंक्टम)",
+    "name_mr": "तुळस (रामतुळस / पवित्र तुळस)",
+    "uses_en": ["Respiratory health", "Immunity booster", "Stress relief"],
+    "uses_hi": ["श्वसन स्वास्थ्य", "प्रतिरक्षा बढ़ाना", "तनाव में राहत"],
+    "uses_mr": ["श्वसन आरोग्य", "प्रतिरोधक शक्ती वाढवणे", "तणाव कमी करणे"],
+    "remedy_en": "Chew 5–7 fresh leaves daily or make tulsi tea for cough and cold.",
+    "remedy_hi": "रोज़ 5–7 ताज़ी पत्तियाँ चबाएँ या खांसी‑जुकाम के लिए तुलसी की चाय बनाकर पिएँ।",
+    "remedy_mr": "दररोज ५–७ ताज्या पानांचा सेवन करा किंवा सर्दी‑खोकल्यासाठी तुळशीचा काढा/चहा प्या.",
+    "precautions_en": "Consult a doctor before long-term medicinal use.",
+    "precautions_hi": "लंबे समय तक औषधीय उपयोग से पहले चिकित्सक से परामर्श लें।",
+    "precautions_mr": "दिर्घकाळ औषधी वापर करण्यापूर्वी डॉक्टरांचा सल्ला घ्या."
+}
+
+} 
