@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AyurSpace - Plant Identification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+
+</head>
+<body>
+  <div class="container">
+    <h1>AyurSpace</h1>
+    <p>AI-Powered Ayurvedic Plant Identification & Remedies</p>
+
+    <div class="lang-toggle">
+      <button id="langEn" class="active">English</button>
+      <button id="langHi">हिन्दी</button>
+      <button id="langMr">मराठी</button>
+    </div>
+
+    <div class="upload-area" id="uploadArea">
+      <div class="upload-icon">📷</div>
+      <p>Drag & drop plant image here<br>or click to browse</p>
+      <input type="file" id="imageInput" accept="image/*" hidden>
+    </div>
+
+    <div id="result" class="result hidden">
+      <h2 id="plantName"></h2>
+      <div class="confidence" id="confidence"></div>
+      <div class="plant-image" id="plantImage"></div>
+      <div class="remedies" id="remedies"></div>
+
+      <!-- Q&A box -->
+      <div id="qaBox" class="qa-box">
+        <h3 style="margin-top: 20px;">Ask a question about remedies</h3>
+        <input type="text" id="qaInput"
+               placeholder="e.g. Tulsi cough ke liye kaise use kare?"
+               style="width: 100%; padding: 8px 12px; border-radius: 10px; border: 1px solid #ccc; margin-bottom: 8px;">
+        <button id="qaBtn"
+                style="padding: 8px 16px; border-radius: 20px; border: none;
+                       background: #1976d2; color: white; font-weight: 600; cursor: pointer;">
+          Ask
+        </button>
+        <div id="qaAnswer" style="margin-top: 10px; font-size: 14px;"></div>
+      </div>
+
+      <!-- Report download button -->
+      <div style="margin-top: 20px; text-align: right;">
+        <button id="printReportBtn"
+                style="padding: 8px 18px; border-radius: 20px; border: none;
+                       background: #4caf50; color: white; font-weight: bold;
+                       cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+          🧾 Download / Print Report
+        </button>
+      </div>
+
+      <!-- Heatmap section -->
+      <div style="margin-top: 25px; text-align: center;">
+        <button id="heatmapBtn" class="btn-warning" disabled
+                style="border-radius: 25px; padding: 12px 30px; font-weight: bold; font-size: 16px;
+                       background: linear-gradient(45deg, #ff6b35, #f7931e); color: white; border: none;
+                       cursor: pointer; box-shadow: 0 4px 15px rgba(255,107,53,0.3);">
+          🌡️ View Heatmap (Model Focus)
+        </button>
+      </div>
+      <div id="heatmapContainer"
+           style="display: none; margin-top: 20px; padding: 20px;
+                  background: linear-gradient(135deg, #8099c0 0%, #c3cfe2 100%);
+                  border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+        <h4 style="color: #2c5530; text-align: center; margin-bottom: 15px;">
+          📍 Model ne yahan focus kiya:
+        </h4>
+        <img id="heatmapImg"
+             style="max-width: 500px; width: 100%; border-radius: 20px;
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.3); border: 5px solid #ff6b35;">
+        <p style="text-align: center; color: #666; font-style: italic; margin-top: 10px;">
+          🔴 Red areas = High model attention<br>
+          🟡 Yellow = Medium attention
+        </p>
+      </div>
+    </div>
+  </div>
+  <script>
+  console.log("INLINE SCRIPT RUN");
+</script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
